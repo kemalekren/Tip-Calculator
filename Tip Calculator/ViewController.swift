@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalAmountLabel: UILabel!
     @IBOutlet weak var tipTextField: UITextField!
     
-    
     @IBAction func billTextFieldAction(_ sender: Any) {
         
         let tip = Double(tipTextField.text ?? "") ?? 0
